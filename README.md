@@ -2,6 +2,7 @@
 The project is for the beginners/intermediates who seek core underestanding of microcontroller principles: such as interfacing a single low-end CMOS 8051 micro-chip with some peripherals: where all working together as a system.
 
 Project descriptions:
+
 -=============================================================-
 Interfacing an 8-bit ADC, a USB 2 port, a 16*2 LCD and a temperature sensor (for just an idea of interfacing any sensor) that will keep monitoring and storing data at every 2 seconds time gap (by default) until it is not instructed to change intervals. This device has some commands-execution feature that allows a user to sit in front of a computer and have control from back to perform commands. The device performs 2 types of commands.
 
@@ -22,7 +23,8 @@ The device also performs some measure to stop getting exhausted by frequent comm
 6. If any command is given, controller will send an acknowledgement to the user for each case.
 7. If command is correct, controller will display that command on LCD then starts executing it.
 8. Until one command is processed, controller will not allow any command in between.
-9. All commands must starts with ‘>’ sign and controller will acknowledge on the computer screen by showing ‘#’ sign that it is ready to take command. User has to wait till ‘#’sign appears.
+9. All commands must starts with ‘>’ sign and controller will acknowledge on the computer screen by showing ‘#’ sign that it is ready to
+take command. User has to wait till ‘#’sign appears.
 N.B. One thing has to keep in mind that every command must starts with a ‘>’ sign and should end with an Enter. Otherwise command will not to be granted by the device.
 
 ============== [Commands] ============================
